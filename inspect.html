@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+
+
+    <header class="navbar">
+      <div class="logo"></div>
+      <img class="nav__logo" src="netflix1.png" alt="" />
+      <nav>
+          <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">TV Shows</a></li>
+              <li><a href="#">Movies</a></li>
+              <li><a href="#">New and Popular</a></li>
+              <li><a href="#">My List</a></li>
+              <li><a href="#">Browse by languages</a></li>
+          </ul>
+      </nav>
+  </header>
+
+    <!-- header -->
+    <header class="nf">
+      <div class="main">
+        <h1 class="heading">LOCKWOOD & CO.</h1>
+        <div class="banner__buttons">
+          <button class="head_button">Play</button>
+          <button class="head_button">More Info</button>
+        </div>
+        <h1 class="head_desc">
+            A girl with psychic abilities joins two teen boys a the ghost-hunting agency
+            Lockwood & Co. to fight the deadly spirits plaguing London, doing their best to save the
+             day without any adult supervision.
+        </h1>
+       
+      </div>
+      <div class="head_fade"></div>
+    </header>
+
+    <div class="part">
+      <h2>NETFLIX ORIGINALS</h2>
+      <div class="part_div">
+        <img class="part__poster" src="moneyheist.jpg" alt="" />
+
+        <img class="part__poster" src="shadow.jpg" alt="" />
+
+        <img class="part__poster" src="another.jpg" alt="" />
+
+        <img class="part__poster" src="dark.jpg" alt="" />
+
+        <img class="part__poster" src="stranger.jpeg" alt="" />
+
+        <img class="part__poster " src="silent.jpeg" alt="" />
+
+      </div>
+    </div>
+
+    <!-- Trending Now -->
+    <div class="part">
+      <h2>Trending Now</h2>
+      <div class="part_div">
+        <img class="part__poster" src="friends.jpg" alt="" />
+
+        <img class="part__poster" src="gossip.jpg" alt="" />
+
+        <img class="part__poster" src="hs.jpeg" alt="" />
+
+        <img class="part__poster" src="naruto.jpeg" alt="" />
+
+        <img class="part__poster" src="bbt.jpeg" alt="" />
+
+        <img class="part__poster" src="images/small-movie6.jpg" alt="" />
+
+        <img class="part__poster" src="images/small-movie7.jpg" alt="" />
+
+        <img class="part__poster" src="images/small-movie8.jpg" alt="" />
+      </div>
+    </div>
+
+    <!-- Top Rated -->
+    <div class="part">
+      <h2>Top Rated</h2>
+      <div class="part_div">
+        <img class="part__poster" src="shadoww.jpeg" alt="" />
+
+        <img class="part__poster" src="shutter.jpeg" alt="" />
+
+        <img class="part__poster" src="bullet.jpeg" alt="" />
+
+        <img class="part__poster" src="bird.jpeg" alt="" />
+
+        <img class="part__poster" src="time.jpeg" alt="" />
+
+      </div>
+    </div>
+
+    <!-- Action Movies -->
+    <div class="part">
+      <h2>Action Movies</h2>
+      <div class="part_div">
+        <img class="part__poster" src="grayman.jpeg" alt="" />
+
+        <img class="part__poster" src="adam.jpeg" alt="" />
+
+        <img class="part__poster" src="Z.jpeg" alt="" />
+
+        <img class="part__poster" src="spidey.jpeg" alt="" />
+
+        <img class="part__poster" src="alice.jpeg" alt="" />
+      </div>
+    </div>
+
+    <!-- Comedy Movies -->
+    <div class="part">
+      <h2>Romance Movies</h2>
+      <div class="part_div">
+        <img class="part__poster" src="lala.jpeg" alt="" />
+
+        <img class="part__poster" src="20.jpeg" alt="" />
+
+        <img class="part__poster" src="call.jpeg" alt="" />
+
+        <img class="part__poster" src="mis.jpeg" alt="" />
+
+        <img class="part__poster" src="to.jpeg" alt="" />
+
+      </div>
+    </div>
+
+    <!-- Horror Movies -->
+    <div class="part">
+      <h2>Horror Movies</h2>
+      <div class="part_div">
+        <img class="part__poster" src="conj.jpeg" alt="" />
+
+        <img class="part__poster" src="incarnate.jpeg" alt="" />
+
+        <img class="part__poster" src="veronica.jpg" alt="" />
+
+        <img class="part__poster" src="evil.jpeg" alt="" />
+
+        <img class="part__poster" src="ouija.jpg" alt="" />
+      </div>
+    </div>
+
+    <!-- Scifi Movies -->
+    <div class="part">
+      <h2>Sci-fi Movies</h2>
+      <div class="part_div">
+        <img class="part__poster" src="ext.jpeg" alt="" />
+
+        <img class="part__poster" src="mirage.jpeg" alt="" />
+
+        <img class="part__poster" src="inception.jpeg" alt="" />
+
+        <img class="part__poster" src="life.jpeg" alt="" />
+
+        <img class="part__poster" src="pass.jpeg" alt="" />
+
+      </div>
+    </div>
+
+    <!-- Documentaries -->
+    <div class="part">
+      <h2>Documentaries</h2>
+      <div class="part_div">
+        <img class="part__poster" src="break.jpeg" alt="" />
+
+        <img class="part__poster" src="great.jpg" alt="" />
+
+        <img class="part__poster" src="island.jpeg" alt="" />
+
+        <img class="part__poster" src="surv.jpeg" alt="" />
+
+        <img class="part__poster" src="alien.jpg" alt="" />
+
+      </div>
+    </div>
+
+    <script>
+      const nav = document.getElementById('nav');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY >= 100) {
+          nav.classList.add('nav__black');
+        } else {
+          nav.classList.remove('nav__black');
+        }
+      });
+    </script>
+  </body>
+</html>
